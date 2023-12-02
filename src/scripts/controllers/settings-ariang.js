@@ -200,6 +200,10 @@
             ariaNgSettingService.setRPCListDisplayOrder(value);
         };
 
+        $scope.setTaskListIndependentDisplayOrder = function (value) {
+            ariaNgSettingService.setTaskListIndependentDisplayOrder(value);
+        };
+
         $scope.setKeyboardShortcuts = function (value) {
             ariaNgSettingService.setKeyboardShortcuts(value);
         };
